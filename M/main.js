@@ -17,7 +17,7 @@ const scene = new THREE.Scene();
 
 // テクスチャの読み込みと背景設定
 const textureLoader = new THREE.TextureLoader();
-textureLoader.load('backm.JPG', (texture) => {
+textureLoader.load('backm.jpg', (texture) => {
     // 背景テクスチャの設定
     scene.background = texture;
 });
